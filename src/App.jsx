@@ -7,8 +7,8 @@ export default function App() {
   return (
     <Routes>
       <Route path="/" element={<Showcase />} />
-      <Route path="/topik1" element={<Topik1 />} />
-      <Route path="/topik2" element={<Topik2 />} />
+      <Route path="/topik1/*" element={<Topik1 />} />
+      <Route path="/topik2/*" element={<Topik2 />} />
     </Routes>
   );
 }
